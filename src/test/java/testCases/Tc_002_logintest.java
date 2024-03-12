@@ -16,7 +16,7 @@ public class Tc_002_logintest extends BaseClass
 		try {
 		HomePage hp=new HomePage(driver);
 		hp.clickmyacoount();
-		hp.clicllogin();
+		hp.clicklogin();
 		
 		Loginpage lp=new Loginpage(driver);
 		lp.setemail(rb.getString("email"));

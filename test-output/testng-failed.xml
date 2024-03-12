@@ -7,6 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
+      <class name="testCases.Tc_002_logintest">
+        <methods>
+          <include name="teardown"/>
+          <include name="logintest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Tc_002_logintest -->
       <class name="testCases.Tc_001_AccountRegistration">
         <methods>
           <include name="teardown"/>

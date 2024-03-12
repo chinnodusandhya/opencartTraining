@@ -9,7 +9,9 @@
     <classes>
       <class name="testCases.Tc_001_AccountRegistration"/>
       <class name="testCases.Tc_002_logintest"/>
-      <!-- <class name="testCases.Tc_003_loginDDT"/>-->
+       <class name="testCases.Tc_003_loginDDT"/>
+        <class name="testCases.Tc__004_searchProduct"/>
+       
       
     </classes>
   </test> <!-- Test -->

@@ -20,7 +20,7 @@ public class Tc_003_loginDDT extends BaseClass
 		HomePage hp=new HomePage(driver);
 		
 		hp.clickmyacoount();
-		hp.clicllogin();
+		hp.clicklogin();
 		
 		Loginpage lp=new Loginpage(driver);
 		
